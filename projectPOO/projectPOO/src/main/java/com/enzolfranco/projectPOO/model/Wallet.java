@@ -1,4 +1,14 @@
 package com.enzolfranco.projectPOO.model;
 
-public class Wallet {
+import lombok.Getter;
+import lombok.ToString;
+
+@ToString
+public abstract class Wallet {
+
+    @Getter
+    private final BankService serviceType;
+
+    
+
 }
